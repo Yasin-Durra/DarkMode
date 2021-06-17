@@ -1,0 +1,93 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: 0.5s;
+}
+.container .content {
+    background-color: #333;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 11px 0px #eee1;
+    transition: 0.3s;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container button{
+    background-color: #222;
+    position: absolute;
+    top: 5px;
+    right:  5px;
+    border: none;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.container .content img {
+    width: 50%;
+    border-radius: 50%;
+}
+.container .content h2{
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    margin-top: -100px;
+    color: #fff;
+}
+.container .content h1{
+    color: #37a7f8;
+    margin-top: -30px;
+}
+.container .content .icons {
+    margin-top: -50px;
+}
+.container .content a{
+    background-color: #222;
+    margin: 0 5px ;
+    padding: 10px;
+    border-radius: 50%;
+    transition: .7s;
+}
+.container .content a i{
+    color: #37a7f8;
+    font-weight: 800;
+        
+}
+.container .content  i{
+    color: #FFF;
+}
+.content a:hover {
+    background-color: #37a7f8;
+} 
+.content a:hover i {
+    color: #fff;
+} 
+.light {
+    background-color: #e1e1ff;
+}
+.light .content{
+    background-color: #fdfdfd;
+    box-shadow: 0px 0px 11px 0px #2225;
+}
+.light .content h2 {
+    color: #555;
+}
+.light button {
+    background-color: #e1e1ff;
+}
+.light .content a{
+    background-color: #e1e1ff;
+}
